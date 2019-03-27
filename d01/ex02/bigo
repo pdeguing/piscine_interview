@@ -1,2 +1,2 @@
-O(n * 2) time.
+O(n) time.
 O(n) space.

@@ -1,0 +1,5 @@
+-> O(n^2) time, it can take up to O(n) (or O(log n) in complete tree -> O(n log n) then) to put \
+one node in proper position and there could be n nodes needing to move to \
+their proper position.
+
+-> O(n) space, because input is O(n).

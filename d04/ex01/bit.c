@@ -8,6 +8,7 @@ char	*getAnd(char *a, char *b) {
 	new = malloc(sizeof(char) * 5);
 	if (!new)
 		return NULL;
+	new[4] = '\0';
 	if (a[0] == '~') {
 		neg_a = 1;
 		a += 1;
